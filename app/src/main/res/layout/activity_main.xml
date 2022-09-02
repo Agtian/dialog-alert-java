@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_show_material_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_show_material_progress" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_basic_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_basic_message" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_error_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_error_message" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_warning_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_warning_message" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_success_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_success_message" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_message_custom_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_custom_icon" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

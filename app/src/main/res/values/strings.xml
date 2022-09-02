@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">dialogalertjava</string>
+    <string name="label_show_material_progress">Label show material progress</string>
+    <string name="label_basic_message">Label basic message</string>
+    <string name="label_error_message">Label error message</string>
+    <string name="label_warning_message">Label warning message</string>
+    <string name="label_success_message">Label success message</string>
+    <string name="label_custom_icon">Label custom icon</string>
+</resources>
